@@ -1,54 +1,5 @@
 
 <div align="center">
-  <h1>Your Title</h1>
-  <img src="image_url.gif" width="400" />
-</div>
-
-`
-
-### 2. Floating Images Left or Right (Text Wrapping)
-
-To align an image or sticker to the **right** or **left** side while letting text wrap neatly around it, use standard `<img>` tags with `align`:
-
-```html
-<img src="your-sticker.gif" align="right" width="200" alt="sticker" />
-Your text goes here, wrapping around the right-aligned image...
-<br clear="right" /> <!-- Resets alignment for following elements -->
-
-```
-
-### 3. Creating Multi-Column Grid Layouts (Side-by-Side)
-
-To display information in side-by-side columns, use standard **HTML Tables** without border attributes:
-
-```html
-<table>
-  <tr>
-    <td width="50%">
-
-   ### 👈 Left Column
-   Content for left side...
-
-    </td>
-    <td width="50%">
-
-   ### 👉 Right Column
-   Content for right side...
-
-    </td>
-  </tr>
-</table>
-
-```
-
----
-
-# 📄 Your Complete Animated & Styled README
-
-Copy and paste the markdown block below directly into your repository's `README.md`:
-
-```markdown
-<div align="center">
 
   # 🌐 English-to-Hindi Neural Machine Translation
   ### *Powered by Luong Multiplicative Attention*
