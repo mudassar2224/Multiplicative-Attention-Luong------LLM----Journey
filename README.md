@@ -1,3 +1,78 @@
+<img width="900" height="200" alt="banner" src="https://github.com/user-attachments/assets/1e9bf96e-1e6b-45f7-94e7-0e385269b16f" />![Uploading banner.s<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1040"/>
+    </linearGradient>
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a78bfa"><animate attributeName="stop-color" values="#a78bfa;#5eead4;#f97316;#a78bfa" dur="4s" repeatCount="indefinite"/></stop>
+      <stop offset="50%" style="stop-color:#5eead4"><animate attributeName="stop-color" values="#5eead4;#f97316;#a78bfa;#5eead4" dur="4s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" style="stop-color:#f97316"><animate attributeName="stop-color" values="#f97316;#a78bfa;#5eead4;#f97316" dur="4s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bg)" rx="16"/>
+
+  <!-- Animated particles -->
+  <circle cx="50" cy="180" r="2" fill="#7c6af7" opacity="0.6">
+    <animate attributeName="cy" values="180;10;180" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="180" r="3" fill="#14b8a6" opacity="0.5">
+    <animate attributeName="cy" values="180;20;180" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="780" cy="180" r="2" fill="#f97316" opacity="0.6">
+    <animate attributeName="cy" values="180;15;180" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="850" cy="180" r="3" fill="#22c55e" opacity="0.5">
+    <animate attributeName="cy" values="180;25;180" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="180" r="2" fill="#a78bfa" opacity="0.7">
+    <animate attributeName="cy" values="180;30;180" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0;0.7" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="180" r="2" fill="#5eead4" opacity="0.6">
+    <animate attributeName="cy" values="180;10;180" dur="7.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="7.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Glowing line top -->
+  <rect x="0" y="0" width="900" height="2" rx="1" fill="url(#title-grad)" opacity="0.8"/>
+
+  <!-- Emoji flags -->
+  <text x="310" y="95" font-size="28" text-anchor="middle">🇬🇧</text>
+  <text x="590" y="95" font-size="28" text-anchor="middle">🇮🇳</text>
+
+  <!-- Arrow animated -->
+  <text x="450" y="98" font-size="26" text-anchor="middle" fill="#5eead4" filter="url(#glow)">
+    →
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Main title -->
+  <text x="450" y="138" font-family="Arial Black, sans-serif" font-size="26" font-weight="900" text-anchor="middle" fill="url(#title-grad)" filter="url(#glow)">
+    English → Hindi Neural Machine Translation
+  </text>
+
+  <!-- Subtitle -->
+  <text x="450" y="165" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#8888aa">
+    Seq2Seq  ·  Luong Multiplicative Attention  ·  TensorFlow 2.x
+  </text>
+
+  <!-- Glowing line bottom -->
+  <rect x="0" y="198" width="900" height="2" rx="1" fill="url(#title-grad)" opacity="0.8"/>
+</svg>
+vg…]()
+
+
 <div align="center">
 
 <img src="banner.svg" width="100%" alt="English to Hindi NMT Banner"/>
